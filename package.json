@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "bankin-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "npx eslint --cache './index.js'",
+    "lint:fix": "npx eslint --fix './indeX.js'",
+    "style": "prettier -c './index.js'",
+    "style:fix": "prettier --c --write './index.js'"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "ora": "^4.0.5"
+  }
+}
