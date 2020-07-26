@@ -1,6 +1,5 @@
 
 var domain = "bank.local.fr"
-
 /**
  * @description Fetch transactions recursively
  * @param {string} fromDate The maximum date of transactions to return
